@@ -1,0 +1,57 @@
+div.myTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap
+}
+
+div.myTables_length select {
+    width: auto;
+    display: inline-block
+}
+
+div.myTables_filter {
+    text-align: right
+}
+
+div.myTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left
+}
+
+div.myTables_filter input {
+    margin-left: .5em;
+    display: inline-block;
+    width: auto
+}
+
+div.myTables_selectedCount {
+    padding-top: .85em
+}
+
+div.myTables_selectAll {
+    padding-top: .85em
+}
+
+div.myTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -26px;
+    text-align: center;
+    padding: 1em 0
+}
+
+@media screen and (max-width: 767px) {
+    div.myTables_length,
+    div.myTables_filter,
+    div.myTables_selectedCount,
+    div.myTables_paginate {
+        text-align: center
+    }
+    div.myTables_paginate {
+        justify-content: center !important
+    }
+}
